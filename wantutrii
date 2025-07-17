@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎂 Happy Bday, Sayang! 💋</title>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+<style>
+  body {
+    background: linear-gradient(135deg, #800000, pink);
+    color: #fff;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    padding: 40px;
+  }
+  h1, p {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+  }
+  p:nth-of-type(1) { animation-delay: 1s; }
+  p:nth-of-type(2) { animation-delay: 2s; }
+  p:nth-of-type(3) { animation-delay: 3s; }
+  p:nth-of-type(4) { animation-delay: 4s; }
+  p:nth-of-type(5) { animation-delay: 5s; }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .icons {
+    font-size: 1.8em;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+  <h1>🎉 Happy birthday, my favorite troublemaker 😏❤️</h1>
+  <p>Congrats ya sayang, makin tua… but lucky me, kamu juga makin hot hehe 🥵✨</p>
+  <p>Thank you for always being my hero, my pillow pas aku ngantuk, and my daily dose of butterflies 🦋</p>
+  <p>Semoga panjang umur, makin sukses, dan paling penting: tetep jadi milik aku — no refund, no return! 🤭</p>
+  <p>Love u more than my skincare, and yes… that means a lot 😘💕</p>
+  <p>Nanti malem aku tunggu traktiran + cuddles special birthday yaa 🫶🎂</p>
+  <div class="icons">😍💋🔥✨</div>
+</body>
+</html>
